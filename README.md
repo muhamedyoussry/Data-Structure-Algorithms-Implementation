@@ -8,7 +8,7 @@ Implementation for data structure and algorithms using c++, you can see detailed
 ---
 
 <p align ="center">
-    <img src = 'https://msatechnosoft.in/blog/wp-content/uploads/2018/09/DSA-MSA-Technosoft.png' >
+    <img src = https://miro.medium.com/max/1024/1*9QRFQdpO2f59GsN2KsE9XA.png >
 </p>
 
 --- 
