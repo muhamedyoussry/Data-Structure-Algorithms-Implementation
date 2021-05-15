@@ -1,11 +1,11 @@
-# Data Structure
+<h1><center> Data Structure </center></h1>
+---
+<h2><center> What is Data Structure ? </center></h2>
 
-> ### What is Data Structure ?
 A data structure is a particular way of organizing data in a computer so that it can be used effectively.
 
---- 
-
-> ### Data Strutcutre Mindmap
+---
+<h2><center> Data Structure Mindmap </center></h2> 
 
 `"A picture is worth a thousand words"`
 
@@ -14,13 +14,14 @@ A data structure is a particular way of organizing data in a computer so that it
 </p>
 
 ---
-
-> ### What are Primitive and Nonprimitive data structure ?
+<h2><center> What are Primitive and Nonprimitive data structure ? </center></h2> 
 
 * **Primitive data types** are predefined types of data, which are supported by the programming language. For example, integer, character, and string are all primitive data types.
 
-* **Non-primitive data types** are not defined by the programming language, but are instead created by the programmer
+* **Non-primitive data types** are not defined by the programming language, but are instead created by the programmer.
 
-> ### Linear Non-primitive data types
+
+---
+<h2><center> Linear Non-primitive data types </center></h2>
 
 - [Stack](Stack/Stack.md)
