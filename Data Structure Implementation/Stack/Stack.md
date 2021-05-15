@@ -1,3 +1,1 @@
-<h1> <center>Stack</center></h1>
-
-
+<h1 align = "center"> Stack </h2>
