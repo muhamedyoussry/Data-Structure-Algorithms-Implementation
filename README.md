@@ -1,4 +1,4 @@
-<h1><center> Data Structure & Algorithms Implementation </center></h1>
+<h1 align = "center"> Data Structure & Algorithms Implementation </h1>
 
 - [Data Structure](https://github.com/muhamedyoussry/Data-Strucure-Algorithms-Implementation/tree/main/Data%20Structure%20Implementation)
   

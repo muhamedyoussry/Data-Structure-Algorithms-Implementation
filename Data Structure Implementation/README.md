@@ -1,4 +1,4 @@
-<h1  Data Structure </h1>
+<h1 align = "center"> Data Structure </h1>
 
 <h2 align="center"> What is Data Structure ? </h2>
 
