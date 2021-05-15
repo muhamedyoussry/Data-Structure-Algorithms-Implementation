@@ -1,5 +1,5 @@
-<h1><center> Data Structure </center></h1>
----
+<h1 align="center"> Data Structure </h1>
+
 <h2><center> What is Data Structure ? </center></h2>
 
 A data structure is a particular way of organizing data in a computer so that it can be used effectively.
