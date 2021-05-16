@@ -14,8 +14,10 @@ A stack is an ordered collection of items where the addition of new items and th
 
 - **Push**: Add an element to the top of a stack
 - **Pop**: Remove an element from the top of a stack
+- **Pop(&variable)**: Save the top element in a variable then remove the element from the top of a stack 
 - **IsEmpty**: Check if the stack is empty
 - **IsFull**: Check if the stack is full
+- **Print**: Print all the elements of the stack
 - **Peek**: Get the value of the top element without removing it
 
 --- 
@@ -28,8 +30,9 @@ link to the [source code](Stack.cpp)
 
 ```c++
 #include <iostream>
-using namespace std;
 #include <string>
+
+using namespace std;
 
 const int MAX_SIZE = 100;
 template <class T> // A template is a simple and yet very powerful tool in C++.
@@ -48,9 +51,19 @@ public:
         top = -1; // make initial value to the top
     }
 
+    bool IsEmpty() // check if the stack is empty
+    {
+        return top < 0;
+    }
+
+    bool IsFull()
+    {
+        return top + 1 >= MAX_SIZE;
+    }
+    
     void Push(T element) // adding an element to the top of a stack
     {
-        if (top >= MAX_SIZE - 1) // check if the stack is full
+        if (IsFull()) // check if the stack is full
         {
             cout << "Stack full on push" << endl;
         }
@@ -59,11 +72,6 @@ public:
             top++;
             item[top] = element;
         }
-    }
-
-    bool IsEmpty() // check if the stack is empty
-    {
-        return top < 0;
     }
 
     void Pop() // delete the last element of the stack

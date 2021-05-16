@@ -1,6 +1,7 @@
 #include <iostream>
-using namespace std;
 #include <string>
+
+using namespace std;
 
 const int MAX_SIZE = 100;
 template <class T> // A template is a simple and yet very powerful tool in C++.
@@ -19,9 +20,19 @@ public:
         top = -1; // make initial value to the top
     }
 
+    bool IsEmpty() // check if the stack is empty
+    {
+        return top < 0;
+    }
+
+    bool IsFull()
+    {
+        return top + 1 >= MAX_SIZE;
+    }
+    
     void Push(T element) // adding an element to the top of a stack
     {
-        if (top >= MAX_SIZE - 1) // check if the stack is full
+        if (IsFull()) // check if the stack is full
         {
             cout << "Stack full on push" << endl;
         }
@@ -30,11 +41,6 @@ public:
             top++;
             item[top] = element;
         }
-    }
-
-    bool IsEmpty() // check if the stack is empty
-    {
-        return top < 0;
     }
 
     void Pop() // delete the last element of the stack
