@@ -25,14 +25,14 @@ public:
         return top < 0;
     }
 
-    bool IsFull()
+    bool IsFull() // check if the stack is full
     {
         return top + 1 >= MAX_SIZE;
     }
-    
+
     void Push(T element) // adding an element to the top of a stack
     {
-        if (IsFull()) // check if the stack is full
+        if (IsFull())
         {
             cout << "Stack full on push" << endl;
         }
