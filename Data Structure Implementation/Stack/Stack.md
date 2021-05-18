@@ -24,9 +24,10 @@ A stack is an ordered collection of items where the addition of new items and th
 
 <h2 align = "center"> Stack Implementation in c++ </h2>
 
+
 <a name="ArrayImplementation">
 
-* Stack using Array Implementation ( [Stack](Stack.cpp) )
+1. Stack using Array Implementation ( [Stack](Stack.cpp) )
 
 </a>
 
@@ -141,7 +142,11 @@ int main()
 ```
 --- 
 
-* Stack using Linked List (Pointer) Implementation ( [Linked Stack](LinkedStack.cpp) )
+<a name ="PointerImplementation">
+
+   1. Stack using Linked List (Pointer) Implementation ( [Linked Stack](LinkedStack.cpp) )
+
+</a>
 
 ```c++
 #include <iostream>

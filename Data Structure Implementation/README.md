@@ -25,5 +25,5 @@ A data structure is a particular way of organizing data in a computer so that it
 <h2 align = "center"> Linear Non-primitive data types </h2>
 
 - [Stack](Stack/Stack.md)
-  - Stack using **Array** Implementation [link](Stack/Stack.md/#ArrayImplementation)
-  - Stack using **Linked** List Implementation
+  - Stack using **Array** Implementation [Source code](Stack/Stack.md/#ArrayImplementation)
+  - Stack using **Linked** List Implementation [Source code](Stack/Stack.md/#PointerImplementation)
