@@ -26,4 +26,4 @@ A data structure is a particular way of organizing data in a computer so that it
 
 - [Stack](Stack/Stack.md)
   - Stack using **Array** Implementation [Source code](Stack/Stack.md/#ArrayImplementation)
-  - Stack using **Linked** List Implementation [Source code](Stack/Stack.md/#PointerImplementation)
+  - Stack using **Linked List** Implementation [Source code](Stack/Stack.md/#PointerImplementation)

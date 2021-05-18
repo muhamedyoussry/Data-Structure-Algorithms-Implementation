@@ -22,7 +22,7 @@ A stack is an ordered collection of items where the addition of new items and th
 
 --- 
 
-<h2 align = "center"> Stack Implementation in c++ </h2>
+<h2 align = "center"> Stack Implementations in c++ </h2>
 
 
 <a name="ArrayImplementation">
