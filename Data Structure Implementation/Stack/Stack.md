@@ -144,7 +144,7 @@ int main()
 
 <a name ="PointerImplementation">
 
-   1. Stack using Linked List (Pointer) Implementation ( [Linked Stack](LinkedStack.cpp) )
+2. Stack using Linked List (Pointer) Implementation ( [Linked Stack](LinkedStack.cpp) )
 
 </a>
 
